@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<style>
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select,textarea{
+        margin-bottom: 12px;
+    }
+    .select{
+        width: 250px;
+        height: 80px;
+    }
+</style>
+<body>
+    <form>
+    <center>
+        <h1><em>Registration Form</em></h1>
+        <h2> Please fill the form to register</h2>
+        <hr>
+    </center>
+    <table>
+        <tr>
+            <td>Full Name:</td><td> <input type="text" placeholder="Enter your name"> </td>
+        </tr>
+        <tr>
+            <td>Email Address:</td><td> <input type="email" placeholder="Enter your email"></td>
+        </tr>
+        <tr>
+            <td> Phone Number:</td><td> <input type="tel" placeholder="Enter your phone number"></td>
+        </tr>
+        <tr>
+            <td>Gender:</td> 
+            <td>
+                <label>
+                    <input type="radio" name="gender">male 
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">female
+                    </label>
+                    <lable>
+                        <input type="radio" name="gender"> other
+                    </lable>
+            </td>
+        </tr>
+        <tr>
+            <td> Date of birth</td><td> <input type="date"> </td>
+        </tr>
+        <tr>
+            <td>Select cource:</td>
+            <td>
+            <select  name="cource">
+                <option value="">select</option>
+                <option>Bachelor of computer application</option>
+                <option>Bachelor of computer science</option>
+                <option>Bachelor of bussiness administative</option>
+                <option>Bachelor of It</option>
+            </td>
+            </select>
+        </tr>
+        <tr>
+            <td>Address:</td><td> <textarea placeholder="Enter your address"></textarea> </td>
+        </tr>
+        <tr>
+            <td>select Course:
+            </td>
+            <td>
+                <select name="course" class="select">
+                <option value=""> select a cource</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option>Web Developent</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Checkbox:</td><td> <input type="checkbox" required> I agree to the terms and conditions</td>
+        </tr>
+        <tr><td></td>
+            <td>
+            <lable>
+                <input type="submit" value="register">
+            </lable>
+            <label>
+                <input type="reset" value="clear">
+            </label>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <center>
+    <div>
+       <span> Already registered?</span> 
+        <a href="thirdproject.html">login here</a>
+        </div>
+    </center>
+    </form>
+    
+</body>
+</html>

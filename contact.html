@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input,select,textarea{
+
+        display: block;    
+
+        margin-bottom :12px; 
+        float: left;
+    }
+    .table{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: -120px;
+    }
+
+
+
+
+    .disc{
+        width:100%;
+        hight: 140px;
+        padding: 12px;
+        border: 1px solid#ccc;
+        border-radius: 6px;
+        font-size: 14px; 
+    }
+    
+    
+    
+    
+   
+    
+    .inder{
+        background-color: red;
+        color: rgb(226, 226, 235);
+        width: 100px;
+        border-radius: 100px;
+         float: none;
+    }
+        .para{
+        text-align: justify;
+        width: 20%;
+        margin: 5px auto;
+        left: 100px;
+    }
+    .checking{
+        transform: scale(1.5);
+        cursor: pointer;
+        
+    }
+    .navbar{
+        position: absolute;
+        top:10px;
+        right: 400px;;
+        margin: 0 30px;
+    }
+</style>
+<link rel="stylesheet" href="color.css">
+<body class="otherpage">
+    <form>
+    <center>
+        <h1 class="h1">Contact Us</h1>
+        <table class="table">
+            <tr>
+                <td>
+                    <select required  >             
+                  
+                    <option>ENQUIRY TYPE</option>
+                    <option>TEAM TECH SERVICES</option>
+                    <option>ANALYST AND ADVISOR</option>
+                    <option>PARTNERSHIP</option>
+                    <option>CARRER</option>
+                    <option>GENERAL ENQUIRY</option>
+                </select>
+                </td>
+                </tr>
+                <tr>
+                    <td> <input type="email" placeholder="EMAIL ADDRESS"> </td>
+                </tr><br>
+                <tr>
+                    <td> <input type="text" placeholder="FIRST NAME">
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type ="text" placeholder="LAST NAME"> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" placeholder="COMPANY NAME"> </td>
+                </tr>
+                <tr>
+                    <td> <textarea  placeholder="MESSAGE"class="desc"required> </textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="checking">opt-in to our personal email list,
+                        and  &nbsp;<br>we'll send you information <br>about relevent  contact, products and services
+                    </td>
+                </tr>
+        </table>
+        <p class="para">we process that your personal data is needed to establish and maintain a bussiness
+         relationship with team tech solution. your personal data may be disclosed to third parties in the normal cources
+         of bussiness are as needed to company with the law . a complete privacy notice is available at. <strong>privacy policy</strong>
+         this site is protected b reCAPtHA and the google <strong>privacy policy</strong> and <strong>terms and services</strong>
+         apply.
+        </p>
+        <input type="submit" class="inder">
+    </center>
+    <div class="navbar">
+        <a href="home.html">home</a>
+        <a href="videos.html">about</a>
+        <a href="registration.html">registration</a>
+    </div>
+    <div></div>
+    </form>
+</body>
+</html>
